@@ -66,7 +66,7 @@ function current0() {
 function gameCondition() {
     current0()
     scoreEl[activePlayer].textContent = scores[activePlayer]
-    if(parseInt((scoreEl[activePlayer]).textContent = scores[activePlayer]) >= 10) {
+    if(parseInt((scoreEl[activePlayer]).textContent = scores[activePlayer]) >= 100) {
         document.querySelector('.player--' + activePlayer).classList.add('player--winner')
         gameIsPlaying = false
         document.getElementById('current--' + activePlayer).textContent = 0      
